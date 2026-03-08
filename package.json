@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "npm run dev",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "start": "browser-sync start --server --files 'index.html, src/**/*.css, src/**/*.js'",
+    "deploy": "gh-pages -d ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
