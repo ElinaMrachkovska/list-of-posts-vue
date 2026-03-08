@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "browser-sync start --server --files 'index.html, src/**/*.css, src/**/*.js'",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
